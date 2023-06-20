@@ -1,40 +1,44 @@
 *{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+    
+    .cabeçalho {
+     background-color: #37064d;
+     color: beige;
+     display: flex;
+     justify-content: space-around;
+     padding: 24px 0;
+    }
+    
+    
+    .cabeçalho-imagem{
+      width: 20%;
+    
+    }
+    
+    .cabeçalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        font-size: 24px;
+    }
   
-  }
+    .Aula-imagem{
+        width: 25%;
+    }
   
+    .Aulas{
+        background-image: linear-gradient(#37064d,#9777f0);
+        color: white;
+        display: flex; justify-content: center; align-items: center;
+        padding: 20% 0;
+    }
   
-  .cabeçalho {
-   background-color: #5D1696;
-   color: beige;
-   display: flex;
-   justify-content: space-around;
-   padding: 24px 0;
-  }
-  
-  
-  .cabeçalho-imagem{
-    width: 20%;
-  
-  }
-  
-  .cabeçalho-lista-item{
-      display: inline-block;
-      margin: 0 16px;
-      font-size: 24px;
-  }
-
-  .Aula-imagem{
-      width: 25%;
-  }
-
-  .Aulas{
-      background-image: linear-gradient(#5B1593,#9991a0);
-      color: white;
-      display: flex; justify-content: center; align-items: center;
-  }
-
-  .aula-div-conteudo{
-      width: 35%;
-  }
+    .aula-div-conteudo{
+        width: 35%;
+    }
+    .Aula-título{
+      padding: 20% 0;
+    }
