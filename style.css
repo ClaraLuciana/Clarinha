@@ -3,6 +3,8 @@
     padding: 0;
     
     }
+    body{font-family: 'Raleway', sans-serif;
+    }
     
     
     .cabeçalho {
@@ -40,5 +42,17 @@
         width: 35%;
     }
     .Aula-título{
-      padding: 20% 0;
+      padding: 5% 0;
+    }
+  
+    .estudante-imagem{
+      width: 12%;
+    }
+  
+    .estudante-ícone{
+      width: 24px;
+    }
+  
+    .estudante.div{
+      text-align: center;
     }
