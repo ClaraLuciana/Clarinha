@@ -1,78 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luciana</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>Alura MIDI</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script src="main.js" ></script>
+
 </head>
 <body>
-    <header class="cabeçalho">
-        <img class="cabeçalho-imagem" src="programação.jpeg" alt="programação.jpeg">
-        <h1>Programação</h1>
-        <ul class="cabeçalho-lista">
-            <li class="cabeçalho-lista-item">Aula de Programação</li>
-            <li class="cabeçalho-lista-item">Para iniciantes do Colégio</li>
-            <li class="cabeçalho-lista-item">Aula de Róbotica</li>
-        </ul>
-    </header>
-<section class="Aulas">
-    <div class="aula-div-conteudo">
-        <h2 class="Aula-título">Sobre as Aulas</h2>
-    <p class="Aula-texto um">Com a plataforma alura poderá ajudará nessas aulas, para o maior desempenho da programação.</p>
-    <p class="Aula-texto dois">Os inicantes que estão no colégio, estão ansiosos.
-A aula de  robótica envolverá bastante mecanismos.</p>
-    </div>
-    
-   <img class="Aula-imagem" src="Programação.png" alt="Programação">
-</section>
-<section class="estudantes">
-<h2 class="estudantes-título">Quem são nossos estudantes?</h2>
-<div class="estudante-todos"> 
-    <span></span>
-    <div class="estudante-div">
-    <img class="estudante-imagem" src="Luciana.jpeg" alt="Foto">
-    <h3 class="estudante-nome">Luciana</h3>
-    <a href="https://github.com/ClaraLuciana"><img class="estudante-ícone" src="github.png" alt="ícone github"></a>
-    <a href="https://instagram.com/clara_luciana03"> <img class="estudante-ícone" src="instagram.png" alt="ícone instagram"></a>
-    </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="Luciana.jpeg" alt="Foto">
-            <h3 class="estudante-nome">Luciana</h3>
-            <img class="estudante-ícone" src="github.png" alt="ícone github">
-            <img class="estudante-ícone" src="instagram.png" alt="ícone instagram">
-            </div>
-            <div class="estudante-div">
-                <img class="estudante-imagem" src="Luciana.jpeg" alt="Foto">
-                <h3 class="estudante-nome">Luciana</h3>
-                <img class="estudante-ícone" src="github.png" alt="ícone github">
-                <img class="estudante-ícone" src="instagram.png" alt="ícone instagram">
-                </div>
-                <span></span>
-                <span></span>
-                <div class="estudante-div">
-                    <img class="estudante-imagem" src="Luciana.jpeg" alt="Foto">
-                    <h3 class="estudante-nome">Luciana</h3>
-                    <img class="estudante-ícone" src="github.png" alt="ícone github">
-                    <img class="estudante-ícone" src="instagram.png" alt="ícone instagram">
-                    </div>
-                    <div class="estudante-div">
-                        <img class="estudante-imagem" src="Luciana.jpeg" alt="Foto">
-                        <h3 class="estudante-nome">Luciana</h3>
-                        <img class="estudante-ícone" src="github.png" alt="ícone github">
-                        <img class="estudante-ícone" src="instagram.png" alt="ícone instagram">
-                        </div>
-                        
-        
-</div>
-</section>
- <footer class="rodape">
-    <img class="rodape-imagem" src="alurastartlogo.png" alt="logo da alura">
-    
- </footer>
+
+    <h1>Alura Midi</h1>
+
+    <section class="teclado">
+        <button class="tecla tecla_pom">Pom</button>
+        <button class="tecla tecla_clap">Clap</button>
+        <button class="tecla tecla_tim">Tim</button>
+
+        <button class="tecla tecla_puff">Puff</button>
+        <button class="tecla tecla_splash">Splash</button>
+        <button class="tecla tecla_toim">Toim</button>
+
+        <button class="tecla tecla_psh">Psh</button>
+        <button class="tecla tecla_tic">Tic</button>
+        <button class="tecla tecla_tom">Tom</button>
+    </section>
+
+    <audio  src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+    <audio  src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+    <audio  src="sounds/keye.wav" id="som_tecla_tim"></audio>
+    <audio  src="sounds/keya.wav" id="som_tecla_puff"></audio>
+    <audio  src="sounds/keys.wav" id="som_tecla_splash"></audio>
+    <audio  src="sounds/keyd.wav" id="som_tecla_toim"></audio>
+    <audio  src="sounds/keyz.wav" id="som_tecla_psh"></audio>
+    <audio  src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+    <audio  src="sounds/keyc.wav" id="som_tecla_tom"></audio>
+
 </body>
 </html>
